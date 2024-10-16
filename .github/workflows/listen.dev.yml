@@ -13,7 +13,7 @@ jobs:
       - uses: listendev/action@v0.11.0
         with:
           ci: only
-          jwt: ${{ secrets.LSTN_API_KEY }}
+          jwt: ${{ secrets.LSTN }}
           argus_version: "v0.0"
       - uses: actions/setup-go@v5
         with:
